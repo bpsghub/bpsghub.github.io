@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "Home"
+title: "Home [Work in Progress]"
 ---
 
-# Welcome to Page
+# Welcome to My Page
 
 Hi! I'm Your-Guy, an IT Professional passionate about creating innovative solutions and sharing my projects with the world.
 
@@ -11,28 +11,26 @@ Hi! I'm Your-Guy, an IT Professional passionate about creating innovative soluti
 
 - 🔧 **Software Development**: Building applications and tools
 - 📊 **Data Analysis**: Turning data into insights
-- 🎨 **Web Design**: Creating user-friendly interfaces
-- 🚀 **Open Source**: Contributing to the developer community
 
 ## Featured Projects
 
-### Project 1: [Project Name]
-Brief description of a project.
-- **Tech Stack**: Python, React, etc.
-- **Status**: Complete/In Progress
-- [View Project](./projects/project1.html) | [GitHub](https://github.com/bpsghub/project1)
+### Project Alpha - Web Application
+Brief description of a comprehensive task management application.
+- **Tech Stack**: React, Node.js, MongoDB, Express
+- **Status**: ✅ Complete
+- [View Project](./projects/project1.html) | [GitHub](https://github.com/bpsghub/project-alpha)
 
-### Project 2: [Another Project]
-Another brief description of a cool projects.
-- **Tech Stack**: JavaScript, Node.js, etc.
-- **Status**: Complete/In Progress
-- [View Project](./projects/project2.html) | [GitHub](https://github.com/bpsghub/project2)
+### Data Insights Dashboard
+Interactive dashboard for visualizing complex datasets and analytics.
+- **Tech Stack**: Python, Streamlit, Plotly, PostgreSQL
+- **Status**: 🔄 In Progress
+- [View Project](./projects/project2.html) | [GitHub](https://github.com/bpsghub/data-dashboard)
 
 ## Get In Touch
 
-- 📧 Email: [your-email@example.com]
-- 💼 LinkedIn: [linkedin.com/in/yourprofile]
-- 🐙 GitHub: [github.com/bpsghub](https://github.com/bpsghub)
+- 📧 Email: 
+- 💼 LinkedIn: 
+- 🐙 GitHub: 
 
 ---
 

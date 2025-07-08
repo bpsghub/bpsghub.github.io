@@ -1,3 +1,30 @@
 remote_theme: pages-themes/hacker@v0.2.0
 plugins:
   - jekyll-remote-theme
+
+# Site settings
+title: Your-Guy's Portfolio
+description: IT Professional passionate about creating innovative solutions
+url: "https://bpsghub.github.io"
+baseurl: ""
+
+# Author information
+author: Your-Guy
+email: your-email@example.com
+github_username: bpsghub
+linkedin_username: your-linkedin
+
+# Navigation
+header_pages:
+  - about.md
+  - projects.md
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
