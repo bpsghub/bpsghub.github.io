@@ -3,7 +3,7 @@ layout: default
 title: "Home"
 ---
 
-# Welcome to My Portfolio
+# Welcome to Page
 
 Hi! I'm Your-Guy, an IT Professional passionate about creating innovative solutions and sharing my projects with the world.
 
