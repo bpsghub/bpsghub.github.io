@@ -11,9 +11,6 @@ toc_label: "My Education"
 
 ### Master of Cybersecurity
 **Monash University** | 2024 - 2025
-<!-- - Major: Cybersecurity
-- GPA: [Your GPA]
-- Relevant coursework: [List courses] -->
 - Achievements: Recipient of Australia Award Scholarship
 
 ### Bachelor of Science in Computer Science
@@ -28,19 +25,15 @@ toc_label: "My Education"
 
 ### Certified Financial Planner (CFP)
 **FPSB Indonesia** 
-<!-- | [Year]
-- Description of certification
-- Skills gained -->
 
 ### Digital Marketing Framework
 **National University of Singapore (NUS)** 
-<!-- | [Year]
-- Description -->
+
 
 ### Effective Communication and Interpersonal Skill
 **Dale Carnegie** 
-<!-- 
 
+{% comment %}
 ## Professional Development
 
 - [Workshop/Training Name] - [Year]
@@ -55,4 +48,5 @@ toc_label: "My Education"
 
 **Business Skills:**
 - Skill 1
-- Skill 2 -->
+- Skill 2 
+{% endcomment %}
