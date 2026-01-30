@@ -13,3 +13,17 @@ search: false
 .page__content li {
     font-size: 0.85em; /* Adjust paragraph and list text size */
 }
+
+/* Optional: Adjust headings if needed */
+.page__content h2 {
+  font-size: 1.6em;
+}
+
+.page__content h3 {
+  font-size: 1.3em;
+}
+
+/* Optional: Adjust line height for better readability */
+.page__content p {
+  line-height: 1.6;
+}
