@@ -9,27 +9,37 @@ toc_label: "My Education"
 
 ## Academic Background
 
-### [Degree Name]
-**[University Name]** | [Year - Year]
-- Major: [Your Major]
+### Master of Cybersecurity
+**Monash University** | 2024 - 2025
+<!-- - Major: Cybersecurity
 - GPA: [Your GPA]
-- Relevant coursework: [List courses]
-- Achievements: [Honors, awards, etc.]
+- Relevant coursework: [List courses] -->
+- Achievements: Recipient of Australia Award Scholarship
 
-### [Previous Degree]
-**[University Name]** | [Year - Year]
-- Details...
+### Bachelor of Science in Computer Science
+**University of Texas at Arlington** | 2009 - 2011
+- Achievements: Recipient of Outstanding Transfer Scholarship
+
+### Associate of Science
+**North Lake College** | 2007 - 2009
+- Achievements: Recipient of Phi Thetta Kappa Scholarship
 
 ## Certifications
 
-### [Certification Name]
-**[Issuing Organization]** | [Year]
+### Certified Financial Planner (CFP)
+**FPSB Indonesia** 
+<!-- | [Year]
 - Description of certification
-- Skills gained
+- Skills gained -->
 
-### [Another Certification]
-**[Issuing Organization]** | [Year]
-- Description
+### Digital Marketing Framework
+**National University of Singapore (NUS)** 
+<!-- | [Year]
+- Description -->
+
+### Effective Communication and Interpersonal Skill
+**Dale Carnegie** 
+<!-- 
 
 ## Professional Development
 
@@ -45,4 +55,4 @@ toc_label: "My Education"
 
 **Business Skills:**
 - Skill 1
-- Skill 2
+- Skill 2 -->
