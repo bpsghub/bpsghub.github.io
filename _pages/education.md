@@ -24,14 +24,14 @@ toc_label: "My Education"
 ## Certifications
 
 ### Certified Financial Planner (CFP)
-**FPSB Indonesia** 
+FPSB Indonesia 
 
 ### Digital Marketing Framework
-**National University of Singapore (NUS)** 
+National University of Singapore (NUS)
 
 
 ### Effective Communication and Interpersonal Skill
-**Dale Carnegie** 
+Dale Carnegie
 
 {% comment %}
 ## Professional Development

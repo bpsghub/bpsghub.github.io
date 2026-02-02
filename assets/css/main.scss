@@ -8,22 +8,39 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-/* Custom font size adjustments */
+/* Custom font size adjustments for regular pages */
 .page__content p,
 .page__content li {
-  font-size: 0.85em; /* Adjust paragraph and list text size */
+  font-size: 0.85em;
 }
 
-/* Optional: Adjust headings if needed */
-.page__content h2 {
-  font-size: 1.6em;
+/* Custom font size for home page and all content areas */
+.page__content p,
+.page__content li,
+.home p,
+.layout--home p {
+  font-size: 0.7em;
 }
 
-.page__content h3 {
+/* Adjust headings */
+.page__content h1,
+.home h1,
+.layout--home h1 {
+  font-size: 1.8em;
+}
+
+.page__content h2,
+.home h2 {
   font-size: 1.3em;
 }
 
-/* Optional: Adjust line height for better readability */
-.page__content p {
-  line-height: 1.6;
+.page__content h3,
+.home h3 {
+  font-size: 1em;
+}
+
+/* Line height */
+.page__content p,
+.home p {
+  line-height: 1; /* Changed from 0.6 - that was too tight! */
 }
