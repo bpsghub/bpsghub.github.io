@@ -9,8 +9,8 @@ toc_label: "My Experience"
 
 ## Professional Experience
 
-### [Job Title]
-**[Company Name]** | [Location] | [Start Date - End Date/Present]
+### Software Quality Assurance
+**Monash University (Helix)** | Clayton, Australia | [Start Date - End Date/Present]
 
 - Led [key responsibility or project]
 - Achieved [specific accomplishment with metrics]
@@ -23,7 +23,7 @@ toc_label: "My Experience"
 
 ---
 
-### [Previous Job Title]
+### Head of Investor Infrastructure Services Unit
 **[Company Name]** | [Location] | [Start Date - End Date]
 
 - Responsibility 1
