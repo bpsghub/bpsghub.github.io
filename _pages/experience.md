@@ -10,32 +10,34 @@ toc_label: "My Experience"
 ## Professional Experience
 
 ### Software Quality Assurance
-**Monash University (Helix)** | Clayton, Australia | [Start Date - End Date/Present]
+**Monash University (Helix)** | Clayton, Australia | Sep 2024 - Feb 2025
 
-- Led [key responsibility or project]
-- Achieved [specific accomplishment with metrics]
-- Collaborated with [teams/departments]
-- Technologies/Tools: [List relevant tools]
+As a Software Quality Assurance specialist at Helix (Monash University), I focused on enhancing platform security and reliability by developing automated tests, identifying vulnerabilities, and collaborating closely with developers to ensure robust, secure systems. My work emphasized secure development practices throughout the testing lifecycle.
 
-**Key Projects:**
-- **[Project Name]:** Brief description and impact
-- **[Project Name]:** Brief description and impact
+- Technologies/Tools: AzureDevOps, Robot Framework, Manual and automated testing.
 
 ---
 
 ### Head of Investor Infrastructure Services Unit
-**[Company Name]** | [Location] | [Start Date - End Date]
+**PT Kustodian Sentral Efek Indonesia** | Jakarta, Indonesia | Jul 2017 - Sep 2023
 
-- Responsibility 1
-- Responsibility 2
-- Achievement
+Led the modernization and integration of Indonesia’s central investor monitoring system at PT KSEI, overseeing cross-functional teams and multiple vendors. Played a key role in enhancing system security, regulatory compliance, and market accessibility, resulting in greater investor engagement and operational resilience.
 
 ---
 
-### [Earlier Position]
-**[Company Name]** | [Location] | [Start Date - End Date]
+### Business Intelligence Analyst
+**Mataharimall.com** | Jakarta, Indonesia | Dec 2015 - Jul 2017
 
-- Brief description
+As a Business Intelligence Analyst at MatahariMall.com, I developed secure, automated BI platforms and dashboards that accelerated reporting and empowered strategic decisions. I also established robust data governance and compliance practices, ensuring the protection of sensitive business information.
+
+---
+
+### Senior Technical Consultant
+**Mataharimall.com** | Jakarta, Indonesia | Dec 2015 - Jul 2017
+
+Implemented IFRS reporting systems and automated financial data pipelines for leading Indonesian banks, enhancing accuracy, compliance, and operational efficiency. Optimized secure, high-availability databases, and provided training to ensure robust, compliant system usage across teams.
+
+--- 
 
 ## Key Achievements
 
