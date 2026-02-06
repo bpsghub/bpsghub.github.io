@@ -8,6 +8,17 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+/* Custom font for experience page */
+.page[data-url*="experience"] .page__content {
+  font-family:'Fira Code', monospace; /* or any font you prefer */
+  font-size: 0.65em;
+}
+
+.page[data-url*="experience"] .page__content li {
+  font-family:'Fira Code', monospace; /* or any font you prefer */
+  font-size: 0.3em;
+}
+
 /* Custom font size adjustments for regular pages */
 .page__content p,
 .page__content li {
@@ -43,9 +54,4 @@ search: false
 .page__content p,
 .home p {
   line-height: 1; /* Changed from 0.6 - that was too tight! */
-}
-
-/* Custom font for experience page */
-.page[data-url*="experience"] .page__content {
-  font-family: Georgia, serif; /* or any font you prefer */
 }
