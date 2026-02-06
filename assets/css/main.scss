@@ -44,3 +44,8 @@ search: false
 .home p {
   line-height: 1; /* Changed from 0.6 - that was too tight! */
 }
+
+/* Custom font for experience page */
+.page[data-url*="experience"] .page__content {
+  font-family: Georgia, serif; /* or any font you prefer */
+}
