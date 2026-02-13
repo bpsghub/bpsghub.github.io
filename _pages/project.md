@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Project"
-permalink: /project/
+permalink: /projects/
 author_profile: true
 toc: true
 toc_label: "My Projects"
