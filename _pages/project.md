@@ -14,7 +14,8 @@ All infrastructure was built and tested inside GNS3, using MikroTik firewalls an
 
 This project showcases my capability to work end‑to‑end across network design, security engineering, threat detection, encryption, and incident response.
 
-Tools: GNS3, Mikrotik firewall, VPN, SnortIDS, Wireshark
+> Tools: GNS3, Mikrotik firewall, VPN, SnortIDS, Wireshark
+
 [Read more detail here](/p_securemultisite/)
 
 

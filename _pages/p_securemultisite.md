@@ -24,6 +24,8 @@ I designed a full mesh network interconnecting the three sites, each with:
 - Unique subnets
 - Connectivity to ISP‑level external nodes (External‑Client and External‑Attacker)
 
+{% include figure image_path="/assets/img/topology.png" caption="Network Topology"%}
+
 ### What is in the topology
 1. DNS Server (Internal)
 - Implemented as a forwarding DNS server (→ Google DNS)
@@ -50,6 +52,20 @@ I designed a full mesh network interconnecting the three sites, each with:
 
 5. SSH Server (Internal-only via Remote VPN)
 - Accessible only through Remote Access VPN
+- Using OpenSSH
 - Hardened by:
     - Restricting inbound access to VPN IP ranges
     - Firewall isolation
+
+## Security Features
+
+### 1. Encrypt communication between SMTP servers
+***Why?***  
+When sending and receiving emails, mail servers communicate between each other using SMTP protocol. However, this protocol does not have any protection (a.k.a. in plain text). Thus, any intermediate hops between source and destination server can see the message.
+
+***So...***  
+I need to enforce encryption in communication between SMTP servers by setting the config in the mail server as follow:  
+in */etc/postfix/main.cf/*  
+- set smtpd_tls_security_level = encrypt  
+- set smtp_tls_security_level = encrypt
+{% include figure image_path="/assets/img/smtp_encrypt.png" caption="Encrypt SMTP"%}
