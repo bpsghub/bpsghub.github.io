@@ -21,7 +21,7 @@ This project showcases my capability to work end‑to‑end across network desig
 
 ---
 
-## Project 2
-Explanation
-
+## Hack The Box Walkthrough: SQL Injection Fundamentals Skill Assessment
+I enjoy pushing my limits, so when I discovered the "SQL Injection Fundamentals" module on Hack The Box, I decided to document my approach and solutions of its `Skill Assesssment` part in this write-up.  
+[Read more detail here](/p_htb_sqli/)
 ---
