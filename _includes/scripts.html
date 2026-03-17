@@ -29,10 +29,30 @@
 
 {% if page.content contains '```mermaid' %}
   <script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
+  <style>
+    .mermaid svg {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .mermaid .edgePath .path,
+    .mermaid .flowchart-link,
+    .mermaid .arrowheadPath,
+    .mermaid marker path {
+      stroke: currentColor !important;
+      fill: currentColor !important;
+    }
+  </style>
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       if (typeof mermaid === "undefined") {
         return;
+      }
+
+      function decodeHtmlEntities(value) {
+        var textarea = document.createElement("textarea");
+        textarea.innerHTML = value;
+        return textarea.value;
       }
 
       document.querySelectorAll("pre code.language-mermaid, pre code.mermaid").forEach(function (codeBlock) {
@@ -43,7 +63,13 @@
 
         var graph = document.createElement("div");
         graph.className = "mermaid";
-        graph.textContent = codeBlock.textContent;
+        var source = codeBlock.textContent || "";
+        source = decodeHtmlEntities(source)
+          .replace(/\r\n?/g, "\n")
+          .replace(/&gt;/g, ">")
+          .replace(/&lt;/g, "<")
+          .replace(/&amp;/g, "&");
+        graph.textContent = source;
         preBlock.parentElement.replaceChild(graph, preBlock);
       });
 

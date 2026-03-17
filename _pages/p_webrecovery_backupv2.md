@@ -1,16 +1,6 @@
----
-layout: single
-title: 
-permalink: /p_webrecovery/
-author_profile: true
-toc: true
-toc_label: "Website Recovery"
----
-
-
 # When a Website Goes Dark: A Story of Detective Work, Docker, and DNS
 
-*A real-world website recovery project — from silent outage to fully operational.*
+*A real-world website recovery project — from silent outage to fully operational in one day.*
 
 ---
 

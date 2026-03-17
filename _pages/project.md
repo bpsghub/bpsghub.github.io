@@ -14,7 +14,7 @@ All infrastructure was built and tested inside GNS3, using MikroTik firewalls an
 
 This project showcases my capability to work end‑to‑end across network design, security engineering, threat detection, encryption, and incident response.
 
-> Tools: GNS3, Mikrotik firewall, VPN, SnortIDS, Wireshark
+> Tech Stack: `GNS3` · `Mikrotik firewall` · `VPN` · `SnortIDS` · `Wireshark`
 
 [Read more detail here](/p_securemultisite/)
 
@@ -29,6 +29,8 @@ It started with a simple message from a client.
 Short. Vague. No error message, no logs, no context. Just — down.
 
 This is the story of how I brought **Cool Design Studio's** website back to life, updated their tech stack, and discovered that the real problem had absolutely nothing to do with their code.
+
+> Tech Stack: `Next.js 15` · `React 19` · `WordPress` · `Docker` · `Traefik` · `MySQL` · `Node.js 20` · `Let's Encrypt` · `WP-CLI`
 
 [Read more detail here](/p_webrecovery/)
 
