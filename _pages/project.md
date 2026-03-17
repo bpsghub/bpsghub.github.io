@@ -21,7 +21,14 @@ This project showcases my capability to work end‑to‑end across network desig
 
 ---
 
-## Project 2
-Explanation
+## Website Recovery
+It started with a simple message from a client.
 
+> *"Our website is down. Can you fix it? Also, can you update the framework while you're at it?"*
+
+Short. Vague. No error message, no logs, no context. Just — down.
+
+This is the story of how I brought **Cool Design Studio's** website back to life, updated their tech stack, and discovered that the real problem had absolutely nothing to do with their code.
+
+[Read more detail here](/p_webrecovery/)
 ---
