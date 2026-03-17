@@ -26,3 +26,29 @@
     <script src="{{ script | relative_url }}"></script>
   {% endfor %}
 {% endif %}
+
+{% if page.content contains '```mermaid' %}
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      if (typeof mermaid === "undefined") {
+        return;
+      }
+
+      document.querySelectorAll("pre code.language-mermaid, pre code.mermaid").forEach(function (codeBlock) {
+        var preBlock = codeBlock.parentElement;
+        if (!preBlock || !preBlock.parentElement) {
+          return;
+        }
+
+        var graph = document.createElement("div");
+        graph.className = "mermaid";
+        graph.textContent = codeBlock.textContent;
+        preBlock.parentElement.replaceChild(graph, preBlock);
+      });
+
+      mermaid.initialize({ startOnLoad: false });
+      mermaid.run({ querySelector: ".mermaid" });
+    });
+  </script>
+{% endif %}
