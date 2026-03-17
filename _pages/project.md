@@ -31,4 +31,6 @@ Short. Vague. No error message, no logs, no context. Just — down.
 This is the story of how I brought **Cool Design Studio's** website back to life, updated their tech stack, and discovered that the real problem had absolutely nothing to do with their code.
 
 [Read more detail here](/p_webrecovery/)
+
+
 ---
