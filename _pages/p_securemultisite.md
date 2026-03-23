@@ -4,7 +4,7 @@ title: "Secure Multi-Site Network Design & Security Implementation"
 permalink: /p_securemultisite/
 author_profile: true
 toc: true
-toc_label: "Secure Multi-Site Network"
+toc_label: "Table of Contents"
 ---
 
 ## Overview

@@ -4,7 +4,7 @@ title:
 permalink: /p_webrecovery/
 author_profile: true
 toc: true
-toc_label: "Website Recovery"
+toc_label: "Table of Contents"
 ---
 
 
@@ -20,7 +20,7 @@ It started with a simple message from a client.
 
 Short. Vague. No error message, no logs, no context. Just — down.
 
-This is the story of how I brought **Cool Design Studio's** website back to life, updated their tech stack, and discovered that the real problem had absolutely nothing to do with their code.
+This is the story of how I brought **Cool Design Studio's** *(altered name for privacy)* website back to life, updated their tech stack, and discovered that the real problem had absolutely nothing to do with their code.
 
 ---
 

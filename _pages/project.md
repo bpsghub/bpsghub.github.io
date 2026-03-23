@@ -28,7 +28,7 @@ It started with a simple message from a client.
 
 Short. Vague. No error message, no logs, no context. Just — down.
 
-This is the story of how I brought **Cool Design Studio's** website back to life, updated their tech stack, and discovered that the real problem had absolutely nothing to do with their code.
+This is the story of how I brought **Cool Design Studio's** *(altered name for privacy)* website back to life, updated their tech stack, and discovered that the real problem had absolutely nothing to do with their code.
 
 > Tech Stack: `Next.js 15` · `React 19` · `WordPress` · `Docker` · `Traefik` · `MySQL` · `Node.js 20` · `Let's Encrypt` · `WP-CLI`
 
@@ -36,3 +36,8 @@ This is the story of how I brought **Cool Design Studio's** website back to life
 
 
 ---
+
+## How I Build My Local Photo Cloud
+I finally got fed up with Google Photos. The free tier is long gone, storage keeps filling up, and frankly — my personal photos sitting on someone else's server has always bothered me. So I decided to build my own private photo cloud from scratch, entirely on open-source software, hosted on hardware I own.
+
+[Read more detail here](/p_localphotocloud-pilot/)
