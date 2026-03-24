@@ -1,20 +1,14 @@
-# main links
+# ─────────────────────────────────────────────────────────────────────────────
+# _data/navigation.yml — update the main nav links
+# Replace your existing main: block with this
+# ─────────────────────────────────────────────────────────────────────────────
+
 main:
-  # - title: "Quick-Start Guide"
-  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
   - title: "Home"
     url: /
-  - title: "Education"
-    url: /education/
-  - title: "Experience"
-    url: /experience/
+
+  - title: "Background"
+    url: /background/
+
   - title: "Projects"
     url: /project/

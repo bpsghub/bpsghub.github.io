@@ -1,0 +1,29 @@
+{% comment %}
+  _includes/theme_toggle.html
+  Light/dark mode toggle. Persists to localStorage. Default: dark.
+{% endcomment %}
+<button class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle light/dark mode">
+  <span id="theme-toggle-label">&#9790;</span>
+</button>
+
+<script>
+(function() {
+  var btn = document.getElementById('theme-toggle');
+  var label = document.getElementById('theme-toggle-label');
+  var stored = localStorage.getItem('theme');
+  var isDark = stored ? stored === 'dark' : true;
+
+  function apply(dark) {
+    document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
+    label.innerHTML = dark ? '&#9790;' : '&#9728;';
+    localStorage.setItem('theme', dark ? 'dark' : 'light');
+  }
+
+  apply(isDark);
+
+  btn.addEventListener('click', function() {
+    isDark = !isDark;
+    apply(isDark);
+  });
+})();
+</script>

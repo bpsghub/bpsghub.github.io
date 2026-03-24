@@ -113,37 +113,25 @@ analytics:
 
 # Site Author
 author:
-  name             : "Bayu PS"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Solving problems at the intersection of business and IT."
-  location         : "Jakarta, Indonesia"
-  email            :
+  name     : "Bayu PS"
+  avatar   : "/assets/img/profile.jpg"
+  bio      : "Cybersecurity Professional & Data Specialist"
+  location : "Jakarta, Indonesia"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/bayu-p-suyatno/"  # ← update this
+ 
+    # - label: "GitHub"
+    #   icon: "fab fa-fw fa-github"
+    #   url: "https://github.com/bpsghub"
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: https://www.linkedin.com/in/bayu-p-suyatno/
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
@@ -325,3 +313,5 @@ defaults:
       comments: # true
       share: true
       related: true
+
+masthead_title: " "   # single space — hides default title text in masthead
