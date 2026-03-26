@@ -8,6 +8,8 @@
 ///
 /// These functions are also useful
 /// for building mixins or other extensions to Susy.
+
+@use "sass:math";
 /// Apply the Susy syntax to new mixins and functions,
 /// using our "Plugin Helpers",
 /// or write your own syntax and pass the normalized results along
@@ -141,7 +143,7 @@
   }
 
   $container: _su-sum($columns, $gutters, $container-spread);
-  @return percentage($gutters / $container);
+  @return percentage(math.div($gutters, $container));
 }
 
 
