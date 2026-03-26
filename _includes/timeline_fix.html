@@ -1,0 +1,37 @@
+{% comment %}
+  _includes/timeline_fix.html
+  Centers timeline dots against their adjacent cards after page load.
+  Include this at the bottom of background.md via Jekyll's layout, or
+  paste the <script> block directly at the bottom of background.md.
+{% endcomment %}
+<script>
+(function() {
+  function centerTimelineDots() {
+    // Standard alternating entries
+    document.querySelectorAll('.tl-entry').forEach(function(entry) {
+      var node = entry.querySelector('.tl-node');
+      var card = entry.querySelector('.tl-card');
+      if (!node || !card) return;
+
+      var cardRect = card.getBoundingClientRect();
+      var entryRect = entry.getBoundingClientRect();
+      var cardMidY = cardRect.top - entryRect.top + cardRect.height / 2;
+
+      // Position node so its center aligns with card's vertical midpoint
+      node.style.position = 'absolute';
+      node.style.left = '50%';
+      node.style.transform = 'translateX(-50%)';
+      node.style.top = (cardMidY - node.offsetHeight / 2) + 'px';
+    });
+  }
+
+  // Run after fonts/images load for accurate heights
+  if (document.readyState === 'complete') {
+    centerTimelineDots();
+  } else {
+    window.addEventListener('load', centerTimelineDots);
+  }
+  // Also re-run on resize
+  window.addEventListener('resize', centerTimelineDots);
+})();
+</script>

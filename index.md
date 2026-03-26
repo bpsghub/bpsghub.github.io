@@ -12,7 +12,7 @@ author_profile: true
   </p>
   <div class="hero__cta">
     <a href="/project/" class="btn--hero-primary">View Projects</a>
-    <a href="/experience/" class="btn--hero-secondary">My Experience</a>
+    <a href="/background/" class="btn--hero-secondary">My Background</a>
   </div>
 </div>
 

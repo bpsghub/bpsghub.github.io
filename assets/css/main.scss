@@ -739,7 +739,7 @@ nav button.theme-toggle-btn {
   grid-template-columns: 1fr 40px 1fr;
   gap: 0;
   margin-bottom: 2rem;
-  align-items: start;
+  align-items: end;
 
   // Odd entries: card left, spacer right
   &:nth-child(odd) {
@@ -768,9 +768,14 @@ nav button.theme-toggle-btn {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 6px;
-  padding-top: 14px;
+  justify-content: center;
+  gap: 4px;
   z-index: 1;
+}
+
+.tl-spacer {
+  align-self: stretch;
+  min-height: 1px;
 }
 
 .tl-dot {
@@ -784,13 +789,13 @@ nav button.theme-toggle-btn {
 }
 
 .tl-year {
-  font-size: 10px;
+  font-size: 9px;
   color: var(--color-text-dim);
   font-family: var(--font-mono);
   white-space: nowrap;
-  writing-mode: vertical-rl;
-  text-orientation: mixed;
-  letter-spacing: 0.05em;
+  writing-mode: horizontal-tb;  // horizontal text below the dot
+  text-align: center;
+  letter-spacing: 0.04em;
 }
 
 .tl-card {
@@ -798,6 +803,7 @@ nav button.theme-toggle-btn {
   border: 0.5px solid var(--color-border);
   border-radius: 10px;
   padding: 14px 16px;
+  min-width: 0;
   transition: border-color 0.2s, transform 0.2s;
 
   &:hover {
@@ -967,7 +973,9 @@ nav button.theme-toggle-btn {
 
   .tl-card-left {
     grid-column: 1;
+    min-width: 0;         // prevent grid column blowout / overflow
     text-align: right;
+    padding: 14px 16px;
     .tl-tags { justify-content: flex-end; }
 
     &.tl-card--work {
@@ -990,12 +998,13 @@ nav button.theme-toggle-btn {
     justify-content: center;
     gap: 5px;
     z-index: 1;
-    // No padding-top — centered by align-items: center on parent
   }
 
   .tl-card-right {
     grid-column: 3;
+    min-width: 0;         // prevent grid column blowout / overflow
     text-align: left;
+    padding: 14px 16px;
     .tl-tags { justify-content: flex-start; }
   }
 }

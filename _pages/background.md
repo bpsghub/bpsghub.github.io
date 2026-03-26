@@ -70,10 +70,6 @@ author_profile: true
 
   <div class="tl-entry">
     <div class="tl-spacer"></div>
-    <div class="tl-node">
-      <div class="tl-dot tl-dot--work"></div>
-      <div class="tl-year">2015</div>
-    </div>
     <div class="tl-card tl-card--work">
       <div class="tl-type">Work</div>
       <div class="tl-role">Business Intelligence Analyst</div>
@@ -86,6 +82,10 @@ author_profile: true
         <span class="tl-tag">Tableau</span>
       </div>
     </div>
+    <div class="tl-node">
+      <div class="tl-dot tl-dot--work"></div>
+      <div class="tl-year">2015</div>
+    </div>
   </div>
 
   <div class="tl-entry">
@@ -93,7 +93,7 @@ author_profile: true
       <div class="tl-type">Work</div>
       <div class="tl-role">Senior Technical Consultant</div>
       <div class="tl-company">PT Anabatic Technologies</div>
-      <div class="tl-period">Dec 2013 – Dec 2015 · Jakarta, Indonesia</div>
+      <div class="tl-period">Jun 2012 – Nov 2015 · Jakarta, Indonesia</div>
       <div class="tl-desc">Implemented IFRS reporting systems and automated financial data pipelines for leading Indonesian banks, enhancing accuracy, compliance, and operational efficiency.</div>
       <div class="tl-tags" style="justify-content:flex-end;">
         <span class="tl-tag">ETL</span>
@@ -103,17 +103,13 @@ author_profile: true
     </div>
     <div class="tl-node">
       <div class="tl-dot tl-dot--work"></div>
-      <div class="tl-year">2013</div>
+      <div class="tl-year">2012</div>
     </div>
     <div class="tl-spacer"></div>
   </div>
 
   <div class="tl-entry">
     <div class="tl-spacer"></div>
-    <div class="tl-node">
-      <div class="tl-dot tl-dot--edu"></div>
-      <div class="tl-year">2009</div>
-    </div>
     <div class="tl-card tl-card--edu">
       <div class="tl-type">Education</div>
       <div class="tl-role">Bachelor of Science in Computer Science</div>
@@ -124,6 +120,10 @@ author_profile: true
         <span class="tl-tag">Computer Science</span>
         <span class="tl-tag">Outstanding Transfer Scholar</span>
       </div>
+    </div>
+    <div class="tl-node">
+      <div class="tl-dot tl-dot--edu"></div>
+      <div class="tl-year">2009</div>
     </div>
   </div>
 
@@ -169,3 +169,4 @@ author_profile: true
 
   </div>
 </div>
+
