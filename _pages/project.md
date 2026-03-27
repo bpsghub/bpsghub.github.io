@@ -9,7 +9,7 @@ header:
 intro:
   - excerpt: "<p style='font-size:1.25em;font-style:italic;color:#555;margin:0;'>Things I built, broke, fixed, and learned from.</p>"
 feature_row:
-  - image_path: /assets/img/multisite-thumb.png
+  - image_path: /assets/img/multisite-thumb.PNG
     alt: "Secure Multi-Site Network Design"
     title: "Secure Multi-Site Network Design"
     excerpt: "<span style='background:#E1F5EE;color:#0F6E56;font-size:11px;font-weight:600;padding:3px 10px;border-radius:99px;letter-spacing:0.03em;'>Cybersecurity</span><br><br>What does it actually take to secure three enterprise buildings under one network? I built the whole thing in a simulator — VPNs, firewalls, IDS — and found out.<br><br><span style='background:#f5f5f2;color:#555;font-size:11px;padding:2px 8px;border-radius:99px;border:1px solid #e0e0da;font-family:monospace;margin-right:4px;'>GNS3</span><span style='background:#f5f5f2;color:#555;font-size:11px;padding:2px 8px;border-radius:99px;border:1px solid #e0e0da;font-family:monospace;margin-right:4px;'>MikroTik</span><span style='background:#f5f5f2;color:#555;font-size:11px;padding:2px 8px;border-radius:99px;border:1px solid #e0e0da;font-family:monospace;margin-right:4px;'>Snort IDS</span><span style='background:#f5f5f2;color:#555;font-size:11px;padding:2px 8px;border-radius:99px;border:1px solid #e0e0da;font-family:monospace;'>Wireshark</span>"
@@ -25,7 +25,7 @@ feature_row:
     btn_label: "Read write-up →"
     btn_class: "btn--primary"
 
-  - image_path: /assets/img/photocloud-thumb.png
+  - image_path: /assets/img/photocloud-thumb.PNG
     alt: "Local Photo Cloud"
     title: "Local Photo Cloud"
     excerpt: "<span style='background:#FAEEDA;color:#854F0B;font-size:11px;font-weight:600;padding:3px 10px;border-radius:99px;letter-spacing:0.03em;'>Homelab</span><br><br>Google Photos killed the free tier. My photos were sitting on someone else's server. So I built my own — fully private, fully open-source, running on hardware I own.<br><br><span style='background:#f5f5f2;color:#555;font-size:11px;padding:2px 8px;border-radius:99px;border:1px solid #e0e0da;font-family:monospace;margin-right:4px;'>Self-hosted</span><span style='background:#f5f5f2;color:#555;font-size:11px;padding:2px 8px;border-radius:99px;border:1px solid #e0e0da;font-family:monospace;'>Open source</span>"
