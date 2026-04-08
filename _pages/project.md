@@ -32,6 +32,14 @@ feature_row:
     url: "/p_localphotocloud-pilot/"
     btn_label: "Read write-up →"
     btn_class: "btn--primary"
+
+  - image_path: /assets/img/botnet-portscan-topology.png
+    alt: "Distributed Port Scanning with a Botnet"
+    title: "Distributed Port Scanning with a Botnet"
+    excerpt: "<span style='background:#FDEBEC;color:#9C1C2C;font-size:11px;font-weight:600;padding:3px 10px;border-radius:99px;letter-spacing:0.03em;'>Network Security</span><br><br>Can a firewall rate limit stop a full TCP scan? I built a C2-coordinated botnet in an isolated GNS3 lab to scan all 65,535 ports in under 60 seconds without blacklisting.<br><br><span style='background:#f5f5f2;color:#555;font-size:11px;padding:2px 8px;border-radius:99px;border:1px solid #e0e0da;font-family:monospace;margin-right:4px;'>GNS3</span><span style='background:#f5f5f2;color:#555;font-size:11px;padding:2px 8px;border-radius:99px;border:1px solid #e0e0da;font-family:monospace;margin-right:4px;'>Python</span><span style='background:#f5f5f2;color:#555;font-size:11px;padding:2px 8px;border-radius:99px;border:1px solid #e0e0da;font-family:monospace;margin-right:4px;'>MikroTik</span><span style='background:#f5f5f2;color:#555;font-size:11px;padding:2px 8px;border-radius:99px;border:1px solid #e0e0da;font-family:monospace;'>Pen Testing</span>"
+    url: "/p_botnet-portscan/"
+    btn_label: "Read write-up →"
+    btn_class: "btn--primary"
 ---
 
 {% include feature_row id="intro" type="center" %}
