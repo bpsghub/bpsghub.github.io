@@ -11,7 +11,7 @@ author_profile: true
     turning complexity into clarity through data, security, and thoughtful engineering.
   </p>
   <div class="hero__cta">
-    <a href="/background/" class="btn--hero-secondary">My Background</a>
+    <a href="/experience-education/" class="btn--hero-secondary">Experience &amp; Education</a>
     <a href="/project/" class="btn--hero-primary">View Projects</a>
   </div>
 </div>

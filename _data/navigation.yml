@@ -7,8 +7,8 @@ main:
   - title: "Home"
     url: /
 
-  - title: "Background"
-    url: /background/
+  - title: "Experience & Education"
+    url: /experience-education/
 
   - title: "Projects"
     url: /project/

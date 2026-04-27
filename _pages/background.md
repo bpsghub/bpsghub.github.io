@@ -1,11 +1,18 @@
 ---
-layout: single
-title: "Background"
-permalink: /background/
-author_profile: true
+layout: splash
+title: "Experience & Education"
+permalink: /experience-education/
+header:
+  overlay_image: /assets/img/header-bg.jpg
+  overlay_filter: 0.6
+  overlay_color: "#0a1628"
+intro:
+  - excerpt: "<p style='font-size:1.25em;font-style:italic;color:#555;margin:0;'>Built in the field, sharpened in the classroom: a timeline of work, learning, and impact.</p>"
 ---
 
-<div class="tl-header">My background</div>
+{% include feature_row id="intro" type="center" %}
+
+<div class="tl-header">Experience &amp; education</div>
 
 <div class="tl-legend">
   <span class="tl-legend-item tl-legend-work">Work</span>

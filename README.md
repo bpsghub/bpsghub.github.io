@@ -173,6 +173,17 @@ Theme documentation and demo pages can be found in the [`/docs`](docs) if submit
 
 To set up your environment to develop this theme, run `bundle install`.
 
+### Quick Run Reminder (Local)
+
+If you just want to run this project locally:
+
+```bash
+bundle install
+bundle exec jekyll serve --livereload
+```
+
+Then open <http://localhost:4000/>.
+
 To test the theme, run `bundle exec rake preview` and open your browser at `http://localhost:4000/test/`. This starts a Jekyll server using content in the `test/` directory. As modifications are made to the theme and test site, it will regenerate and you should see the changes in the browser after a refresh.
 
 ## Credits
