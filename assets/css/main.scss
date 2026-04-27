@@ -740,7 +740,8 @@ nav button.theme-toggle-btn {
 
 .tl-entry {
   display: grid;
-  grid-template-columns: 1fr 40px 1fr;
+  grid-template-columns: minmax(0, 460px) 56px minmax(0, 460px);
+  justify-content: center;
   gap: 0;
   margin-bottom: 2rem;
   align-items: end;
@@ -749,6 +750,7 @@ nav button.theme-toggle-btn {
   &:nth-child(odd) {
     .tl-card {
       grid-column: 1;
+      justify-self: end;
       text-align: right;
       .tl-tags { justify-content: flex-end; }
     }
@@ -762,6 +764,7 @@ nav button.theme-toggle-btn {
     .tl-node { grid-column: 2; }
     .tl-card {
       grid-column: 3;
+      justify-self: start;
       text-align: left;
       .tl-tags { justify-content: flex-start; }
     }
@@ -807,6 +810,7 @@ nav button.theme-toggle-btn {
   border: 0.5px solid var(--color-border);
   border-radius: 10px;
   padding: 14px 16px;
+  width: min(100%, 560px);
   min-width: 0;
   transition: border-color 0.2s, transform 0.2s;
 
@@ -874,6 +878,7 @@ nav button.theme-toggle-btn {
     .tl-node { grid-column: 1; }
     .tl-card {
       grid-column: 2;
+      width: 100%;
       text-align: left !important;
       .tl-tags { justify-content: flex-start !important; }
     }
@@ -971,13 +976,16 @@ nav button.theme-toggle-btn {
 // ─────────────────────────────────────────────
 .tl-concurrent {
   display: grid;
-  grid-template-columns: 1fr 40px 1fr;
+  grid-template-columns: minmax(0, 460px) 56px minmax(0, 460px);
+  justify-content: center;
   margin-bottom: 2rem;
   align-items: center;  // vertically center node against both cards
 
   .tl-card-left {
     grid-column: 1;
+    justify-self: end;
     min-width: 0;         // prevent grid column blowout / overflow
+    width: min(100%, 560px);
     text-align: right;
     padding: 14px 16px;
     .tl-tags { justify-content: flex-end; }
@@ -1006,7 +1014,9 @@ nav button.theme-toggle-btn {
 
   .tl-card-right {
     grid-column: 3;
+    justify-self: start;
     min-width: 0;         // prevent grid column blowout / overflow
+    width: min(100%, 560px);
     text-align: left;
     padding: 14px 16px;
     .tl-tags { justify-content: flex-start; }
@@ -1049,6 +1059,7 @@ nav button.theme-toggle-btn {
     .tl-card-left {
       grid-column: 2;
       grid-row: 1;
+      width: 100%;
       text-align: left !important;
       .tl-tags { justify-content: flex-start !important; }
       &.tl-card--work, &.tl-card--edu {
@@ -1071,6 +1082,7 @@ nav button.theme-toggle-btn {
     .tl-card-right {
       grid-column: 2;
       grid-row: 2;
+      width: 100%;
       margin-top: 1rem;
     }
   }
