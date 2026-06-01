@@ -132,16 +132,17 @@
    Grid view
    ========================================================================== */
 
-.archive {
-  .grid__wrapper {
-    /* extend grid elements to the right */
-
-    @include breakpoint($large) {
-      margin-inline-end: -1 * $right-sidebar-width-narrow;
+.page-project {
+  .feature__item {
+    .archive__item-teaser {
+      aspect-ratio: 16 / 9;
     }
 
-    @include breakpoint($x-large) {
-      margin-inline-end: -1 * $right-sidebar-width;
+    .archive__item-teaser img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
     }
   }
 }
