@@ -1,6 +1,8 @@
 ---
 title: "Projects"
 layout: splash
+classes:
+  - page-project
 permalink: /project/
 header:
   overlay_image: /assets/img/header-bg.jpg
@@ -20,6 +22,7 @@ feature_row:
   - image_path: /assets/img/webrecovery-thumb.png
     alt: "Website Recovery"
     title: "Website Recovery"
+    image_position: left center
     excerpt: "<span style='background:#E6F1FB;color:#185FA5;font-size:11px;font-weight:600;padding:3px 10px;border-radius:99px;letter-spacing:0.03em;'>Web / DevOps</span><br><br>\"Our website is down.\" No logs. No context. Just a blank screen and a deadline. Here's how I brought it back — and why the real problem had nothing to do with the code.<br><br><span style='background:#f5f5f2;color:#555;font-size:11px;padding:2px 8px;border-radius:99px;border:1px solid #e0e0da;font-family:monospace;margin-right:4px;'>Next.js 15</span><span style='background:#f5f5f2;color:#555;font-size:11px;padding:2px 8px;border-radius:99px;border:1px solid #e0e0da;font-family:monospace;margin-right:4px;'>Docker</span><span style='background:#f5f5f2;color:#555;font-size:11px;padding:2px 8px;border-radius:99px;border:1px solid #e0e0da;font-family:monospace;margin-right:4px;'>Traefik</span><span style='background:#f5f5f2;color:#555;font-size:11px;padding:2px 8px;border-radius:99px;border:1px solid #e0e0da;font-family:monospace;'>WordPress</span>"
     url: "/p_webrecovery/"
     btn_label: "Read write-up →"
@@ -47,7 +50,6 @@ feature_row:
     excerpt: "<span style='background:#EAF2FF;color:#1E4E8C;font-size:11px;font-weight:600;padding:3px 10px;border-radius:99px;letter-spacing:0.03em;'>Privacy Engineering</span><br><br>Faced with sensitive interview recordings and strict data-handling constraints, I built ViScriber, a cross-platform desktop tool that transcribes audio and video fully offline using Whisper.<br><br><span style='background:#f5f5f2;color:#555;font-size:11px;padding:2px 8px;border-radius:99px;border:1px solid #e0e0da;font-family:monospace;margin-right:4px;'>Whisper</span><span style='background:#f5f5f2;color:#555;font-size:11px;padding:2px 8px;border-radius:99px;border:1px solid #e0e0da;font-family:monospace;margin-right:4px;'>Python</span><span style='background:#f5f5f2;color:#555;font-size:11px;padding:2px 8px;border-radius:99px;border:1px solid #e0e0da;font-family:monospace;margin-right:4px;'>PyInstaller</span><span style='background:#f5f5f2;color:#555;font-size:11px;padding:2px 8px;border-radius:99px;border:1px solid #e0e0da;font-family:monospace;'>Offline-first</span>"
     url: "/p_viscriber/"
     btn_label: "Read write-up →"
-    btn_class: "btn--primary"
 ---
 
 {% include feature_row id="intro" type="center" %}
