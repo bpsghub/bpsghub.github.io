@@ -147,6 +147,30 @@
   }
 }
 
+.page__content {
+  .kidsync-figure {
+    margin: 1.35rem auto;
+    max-width: 560px;
+    width: min(84%, 560px);
+
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 0.8rem;
+      box-shadow: 0 12px 28px rgba(15, 23, 42, 0.10);
+    }
+
+    figcaption {
+      max-width: 44rem;
+      margin-inline: auto;
+      font-size: 0.85em;
+      line-height: 1.5;
+      color: mix($text-color, $muted-text-color, 70%);
+    }
+  }
+}
+
 .grid__item {
   margin-bottom: 2em;
 
